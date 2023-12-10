@@ -1,1 +1,9 @@
-# CC-CafeAlyzer-LandingPage
+# React + Vite
+
+## How to use
+```
+yarn install
+```
+```
+yarn dev
+```
