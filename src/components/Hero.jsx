@@ -11,7 +11,7 @@ const Hero = forwardRef((props, ref) => {
             trends.
           </p>
           <div className="flex justify-center items-center lg:items-start lg:justify-start">
-            <button className="bg-primary px-10 py-2 rounded-full text-white font-semibold">Download</button>
+            <a href="https://github.com/saliharya/CafeAlyzer/releases/tag/v.1.0.0" target="_blank" rel="noreferrer" className="bg-primary px-10 py-2 rounded-full text-white font-semibold">Download</a>
           </div>
         </div>
         <div className="hidden lg:flex lg:w-8/12 lg:justify-center lg:items-center" data-aos="fade-left" data-aos-duration="3000">

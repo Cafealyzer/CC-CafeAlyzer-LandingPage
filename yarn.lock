@@ -218,10 +218,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@esbuild/win32-x64@0.19.8":
+"@esbuild/linux-x64@0.19.8":
   version "0.19.8"
-  resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.19.8.tgz"
-  integrity sha512-bfZ0cQ1uZs2PqpulNL5j/3w+GDhP36k1K5c38QdQg+Swy51jFZWWeIkteNsufkQxp986wnqRRsb/bHbY1WQ7TA==
+  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.19.8.tgz"
+  integrity sha512-lytMAVOM3b1gPypL2TRmZ5rnXl7+6IIk8uB3eLsV1JwcizuolblXRrc5ShPrO9ls/b+RTp+E6gbsuLWHWi2zGg==
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
@@ -334,10 +334,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rollup/rollup-win32-x64-msvc@4.6.0":
+"@rollup/rollup-linux-x64-gnu@4.6.0":
   version "4.6.0"
-  resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.6.0.tgz"
-  integrity sha512-QqmCsydHS172Y0Kc13bkMXvipbJSvzeglBncJG3LsYJSiPlxYACz7MmJBs4A8l1oU+jfhYEIC/+AUSlvjmiX/g==
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.6.0.tgz"
+  integrity sha512-rouezFHpwCqdEXsqAfNsTgSWO0FoZ5hKv5p+TGO5KFhyN/dvYXNMqMolOb8BkyKcPqjYRBeT+Z6V3aM26rPaYg==
+
+"@rollup/rollup-linux-x64-musl@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.6.0.tgz"
+  integrity sha512-Bbm+fyn3S6u51urfj3YnqBXg5vI2jQPncRRELaucmhBVyZkbWClQ1fEsRmdnCPpQOQfkpg9gZArvtMVkOMsh1w==
 
 "@types/babel__core@^7.20.4":
   version "7.20.5"
@@ -1850,10 +1855,10 @@ pirates@^4.0.1:
   resolved "https://registry.npmjs.org/pirates/-/pirates-4.0.6.tgz"
   integrity sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==
 
-pnpm@^8.12.0:
-  version "8.12.0"
-  resolved "https://registry.npmjs.org/pnpm/-/pnpm-8.12.0.tgz"
-  integrity sha512-J5J4+Dvngvb6rvusvMxQMwHE7Cza/UCYPnwmru7nw4Jw9cjmNbQ0ZGkbiXq+FnW0DAbfbtrd6SJTK3NoqppSZw==
+pnpm@^8.12.1:
+  version "8.12.1"
+  resolved "https://registry.npmjs.org/pnpm/-/pnpm-8.12.1.tgz"
+  integrity sha512-ZwXqGWattlhwU+bP5v3cN3+BBmIo2vc2xEkAEvRPL/G/DHE7uPMUX84OPvZpx8FfGaWawVeDiVHyNMF7gcplXQ==
 
 postcss-import@^15.1.0:
   version "15.1.0"
